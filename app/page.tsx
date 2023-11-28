@@ -4,7 +4,7 @@ import { serverConsole, serverError } from './actions';
 
 export default function Home() {
   function clientConsole() {
-    console.log('Hello, Client!');
+    console.error('Hello, Client!');
   }
 
   function clientError() {
